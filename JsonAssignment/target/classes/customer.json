@@ -1,0 +1,24 @@
+{
+	"title": "Customer",
+	"description": "Customer Information",
+	"type": "object",
+	"properties": {
+		"name": {
+			"description": "A person's name",
+			"type": "string",
+			"minLength": 1
+		},
+		"age": {
+			"description": "A person's age",
+			"type": "number",
+			"minimum": 18,
+			"maximum": 64
+		},
+		"address": {
+			"streetAddress": {
+				"description": "A person's name",
+				"type": "string"
+			}
+		}
+	}
+}
